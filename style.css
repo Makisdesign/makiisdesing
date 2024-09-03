@@ -67,7 +67,7 @@ body {
 	display: block;
 	padding: 2rem;
 	color: #CBB3EE;
-	animation:;
+	animation: wipe-in var(--duration) ;
 	mask: linear-gradient(to right, white, white 45%, black, 55%, black);
   	mask-composite: exclude;
 	mask-mode: luminance;

@@ -67,13 +67,12 @@ body {
 	display: block;
 	padding: 2rem;
 	color: #CBB3EE;
-	animation: wipe-in var(--duration) ;
+	animation: wipe-in var(--duration) );
 	mask: linear-gradient(to right, white, white 45%, black, 55%, black);
   	mask-composite: exclude;
 	mask-mode: luminance;
 	mask-size: 300% 100%;
 	mask-position: 100% 0px;
-}
 }
 
 .wipe-in {
